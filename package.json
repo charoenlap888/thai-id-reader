@@ -1,0 +1,17 @@
+{
+  "name": "smartcard-th",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "dependencies": {
+    "express": "^4.16.4",
+    "legacy-encoding": "^3.0.0",
+    "smartcard": "^1.0.29"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Thanathip Suntorntip",
+  "license": "ISC"
+}
