@@ -12,6 +12,7 @@ let smreader;
 devices.onActivated().then(a => {
 	smreader = devices.listDevices()[0];
 	smreader.on('card-inserted', (data) => {
+		console.log('Card inserted:', data);
 		let card = data.card
 		let select = thaiCommand.enableCardCommand(card);
 		select.then(buf => {
